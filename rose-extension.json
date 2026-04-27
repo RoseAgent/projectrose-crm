@@ -1,0 +1,46 @@
+{
+  "id": "rose-crm",
+  "name": "CRM",
+  "version": "1.0.0",
+  "description": "Contact management — store and retrieve people and places for the AI agent.",
+  "author": "ProjectRose",
+  "navItem": { "label": "CRM", "iconName": "users" },
+  "provides": {
+    "pageView": true,
+    "globalSettings": true,
+    "main": true,
+    "agentTools": true,
+    "tools": [
+      {
+        "name": "crm_list_contacts",
+        "displayName": "List Contacts",
+        "description": "List all contacts"
+      },
+      {
+        "name": "crm_search_contacts",
+        "displayName": "Search Contacts",
+        "description": "Search contacts by keyword"
+      },
+      {
+        "name": "crm_read_contact",
+        "displayName": "Read Contact",
+        "description": "Look up a contact by name"
+      },
+      {
+        "name": "crm_create_contact",
+        "displayName": "Create Contact",
+        "description": "Create a new contact in the CRM"
+      },
+      {
+        "name": "crm_update_contact",
+        "displayName": "Update Contact",
+        "description": "Update an existing contact"
+      },
+      {
+        "name": "crm_delete_contact",
+        "displayName": "Delete Contact",
+        "description": "Delete a contact by name"
+      }
+    ]
+  }
+}
