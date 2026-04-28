@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "Contact management — store and retrieve people and places for the AI agent.",
   "author": "ProjectRose",
+  "latin": "Rosa hominum",
   "navItem": { "label": "CRM", "iconName": "users" },
   "provides": {
     "pageView": true,
