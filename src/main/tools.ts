@@ -1,5 +1,5 @@
 import type { Contact, ContactType } from '../shared/types'
-import type { ExtensionToolEntry } from './types'
+import type { ExtensionToolEntry } from '../../../../ProjectRose/src/shared/extension-contract'
 import { normalizeInput, matchesQuery } from './store'
 import { readContacts, writeContacts } from './storage'
 

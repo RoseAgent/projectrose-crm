@@ -1,5 +1,5 @@
 import { ipcMain } from 'electron'
-import type { ExtensionMainContext } from './types'
+import type { ExtensionMainContext } from '../../../../ProjectRose/src/shared/extension-contract'
 import type { Contact } from '../shared/types'
 import { normalizeInput } from './store'
 import { readContacts, writeContacts } from './storage'
