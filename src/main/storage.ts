@@ -1,7 +1,7 @@
 import { mkdir, readFile, writeFile } from 'fs/promises'
 import { existsSync } from 'fs'
 import { join, dirname } from 'path'
-import { readSettings, writeSettings } from '@main/ipc/settingsHandlers'
+import { readSettings, writeSettings } from './hostBridge'
 import type { Contact } from '../shared/types'
 
 const LEGACY_KEY = 'crmContacts'
